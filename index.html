@@ -66,7 +66,7 @@
                 <p>En HIDROFACHADAS S.A.S nos inspiramos en la inovacion y restauracion, con un claro proposito superior que nos motiva a continuar entregandolo todo a la hora de llevar acabo nuestros proyectos, en HIDROFACHADAS S.A.S, les aseguramos la transparencia en nuestras actuaciones, competividad y solidez.</p>
                 <a href="portafolios/PORTAFOLIOS.pdf" class="btn-info" download="portafolios">Portafolio</a>
             </div>
-            <img src="img/logo.png" alt="Hidrofachadas-logo" data-aos="fade-left" data-aos-duration="2000">
+            <img src="img/Hidro Fachadas-01.png" alt="Hidrofachadas-logo" data-aos="fade-left" data-aos-duration="2000">
         </div>
       </main>
 
@@ -151,12 +151,21 @@
 
 
       <div class="contact">
-        <form class="container-form">
+        <form 
+        action="https://formsubmit.co/hidrofachadassas@gmail.com" 
+        method="POST" 
+        class="container-form"
+        
+        />
           <h2>Contactanos</h2>
-          <input type="text" placeholder="Nombre">
-          <input type="text" placeholder="Compañia">
-          <textarea placeholder="Mensaje..."></textarea>
-          <button class="btn-info">Enviar</button>
+          <input type="text" placeholder="Nombre" name="Nombre"/>
+          <input type="text" placeholder="Nombre del edificio o conjunto" name="Edificio o Conjunto">
+          <input type="number" placeholder="Telefono" name="Telefono"></input>
+          <input type="text" placeholder="Correo Electronico" name="correo electronico"></input>
+          <textarea name="mensaje" cols="15" rows="5" placeholder="Mensaje..."></textarea>
+          <button type="submit" value="enviar">Enviar</button>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5501/index.html">
+          <input type="hidden" name="_captcha" value="false">
         </form>
       </div>
 
